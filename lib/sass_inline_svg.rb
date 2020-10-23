@@ -14,7 +14,7 @@ module Sass::Script::Functions
     encode(svg)
   end
 
-  alias_method :inline_svg, :svg_inline
+  alias_method :svg_inline, :inline_svg
 
   declare :inline_svg, [:path, :repl]
   declare :inline_svg, [:path]
